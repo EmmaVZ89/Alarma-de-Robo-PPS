@@ -37,7 +37,7 @@
  <hr>
  <h2 align="center">SPLASH SCREEN</h2>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/1%20splash.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/1-splash.gif">
  </p>
  <hr>
  
@@ -45,45 +45,23 @@
  <h2 align="center">INICIO RÁPIDO</h2>
  <p align="center">Se pueden seleccionar 3 diferentes tipo de usuarios para probar la aplicación</p>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/2%20inicio%20rapido.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/2-inicio.gif">
  </p>
  <hr>
  
  <hr>
- <h2 align="center">CAMBIO DE IDIOMA</h2>
- <p align="center">Es posible elegir entre español, portugues e inglés.</p>
+ <h2 align="center">ACTIVAR ALARMA</h2>
+ <p align="center">Presionando el botón se activará la alarma y el dispositivo no podrá ser movido sin que esta empiece a sonar.</p>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/3%20idioma.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/3-activar.gif">
  </p>
  <hr>
  
  <hr>
- <h2 align="center">CAMBIO DE TEMA</h2>
- <p align="center">Es posible elegir entre animales, números y colores.</p>
+ <h2 align="center">DESACTIVAR ALARMA</h2>
+ <p align="center">La alarma podrá ser desactivada si y solo si se ingresa la contraseña del usuario actualmente logueado. De los contrario seguira sonando, vibrando y encendiendo la linterna</p>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/4%20tema.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/4-desactivar.gif">
  </p>
  <hr>
  
- <hr>
- <h2 align="center">BOTONES</h2>
- <p align="center">Al presionar los botones se reproducirá el sonido correspondiente en el idioma actual.</p>
- <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/5%20botones.gif">
- </p>
- <hr>
- 
- <hr>
- <h2 align="center">TEMPLATE HORIZONTAL</h2>
- <p align="center">Al poner el dispositivo en forma horizontal el contenido se acomoda a la pantalla.</p>
- <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/6%20horizontal.gif">
- </p>
- <hr>
- 
- <hr>
- <h2 align="center">VISTAS</h2>
- <img align="left" width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/login.png">
- <img align="left" width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/home-a.png">
- <img align="left" width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/home-n.png">
- <img align="left" width=200 src="https://github.com/EmmaVZ89/Tabla-Didactica-PPS/blob/main/readme/home-c.png">
