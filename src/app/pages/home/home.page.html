@@ -1,0 +1,104 @@
+<ion-content noscroll>
+  <!-- ******************************* BOTON DESACTIVADO *******************************-->
+  <div *ngIf="!alarmActivated" style="width: 100%; height: 100%">
+    <!-- ******************************* LOGOUT *******************************-->
+    <ion-fab vertical="top" horizontal="end" slot="fixed">
+      <ion-fab-button color="dark">
+        <ion-icon name="settings"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="start">
+        <ion-fab-button
+          (click)="logoutUser()"
+          style="border: 1px solid #000; border-radius: 50%"
+          ><ion-icon
+            name="exit-outline"
+            style="
+              color: #f00;
+              background: rgb(255, 255, 255);
+              padding: 5px;
+              font-size: 3rem;
+            "
+          ></ion-icon
+        ></ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+
+    <ion-grid style="height: 100%; display: flex; flex-flow: column">
+      <ion-row style="flex-grow: 1">
+        <ion-col
+          style="height: 100%"
+          class="btn-desactivado"
+          (click)="activateAlarm()"
+        >
+          <img
+            src="../../assets/alarma-des.png"
+            alt=""
+            *ngIf="!alarmActivated"
+          />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <!-- (click)="activarAlarma()" -->
+
+  <!-- ******************************* BOTON ACTIVADO *******************************-->
+  <div *ngIf="alarmActivated" style="width: 100%; height: 100%">
+    <ion-grid style="height: 90%; display: flex; flex-flow: column">
+      <ion-row
+        style="
+          flex-grow: 1;
+          height: 100%;
+          width: 100%;
+          margin-bottom: 0px;
+          padding-bottom: 0px;
+        "
+      >
+        <ion-col style="height: 100%" class="btn-activado">
+          <img src="../../assets/alarma-act.png" alt="" />
+        </ion-col>
+      </ion-row>
+      <ion-row style="flex-grow: 1; height: 10%; width: 100%">
+        <ion-col style="height: 10%; width: 100%">
+          <div>
+            <ion-item class="items">
+              <ion-label position="floating">
+                <ion-text
+                  color="light"
+                  style="font-family: Georgia, Times, serif"
+                  >Contraseña</ion-text
+                >
+              </ion-label>
+              <ion-input
+                style="color: black"
+                [(ngModel)]="password"
+                name="clave"
+                type="password"
+                required
+                color="dark"
+              ></ion-input>
+            </ion-item>
+            <ion-button
+              expand="block"
+              fill="solid"
+              type="button"
+              class="btn-desactivar"
+              (click)="desactivateAlarm()"
+            >
+              <ion-text style="font-family: Georgia, Times, serif">
+                Desactivar
+              </ion-text>
+            </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <!-- ******************************* SPINNER *******************************-->
+  <ion-spinner
+    *ngIf="pressedButton"
+    name="dots"
+    style="display: block; position: inherit; margin: auto; z-index: 101"
+    color="primary"
+  ></ion-spinner>
+</ion-content>

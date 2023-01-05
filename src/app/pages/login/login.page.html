@@ -1,0 +1,59 @@
+<div class="container-fluid mx-auto contenedor-gral">
+  <img
+    style="width: 10rem; display: block; margin-left: auto; margin-right: auto"
+    src="../../../assets/alarma-antirrobo.png"
+    alt="logo"
+  />
+  <div class="row mb-4 px-3" style="color: #fff">
+    <h6 class="mb-3 mr-4 mt-3">Ingresa como:</h6>
+    <div class="text-center mr-3">
+      <button class="btn btn-warning btn-rapido" (click)="loadFastUser(1)">
+        Admin
+      </button>
+      <button class="btn btn-warning btn-rapido" (click)="loadFastUser(3)">
+        Usuario
+      </button>
+      <button class="btn btn-warning btn-rapido" (click)="loadFastUser(2)">
+        Invitado
+      </button>
+    </div>
+  </div>
+  <div class="row px-3 mb-4" style="color: #fff">
+    <div class="line"></div>
+    <small class="or text-center">O</small>
+    <div class="line"></div>
+  </div>
+  <div class="row px-3" style="color: #fff">
+    <label class="mb-1"
+      ><h6 class="mb-0 text-sm">Dirección de Correo</h6></label
+    >
+    <input
+      [(ngModel)]="email"
+      class="mb-4"
+      type="email"
+      name="email"
+      placeholder="Ingrese un correo valido"
+    />
+  </div>
+  <div
+    class="row px-3"
+    style="padding-left: 20px; padding-right: 20px; color: #fff"
+  >
+    <label class="mb-1"><h6 class="mb-0 text-sm">Contraseña</h6></label>
+    <input
+      [(ngModel)]="password"
+      type="password"
+      name="password"
+      placeholder="Ingrese su contraseña"
+    />
+  </div>
+  <div class="row mb-3 px-3" style="color: #fff">
+    <button
+      type="submit"
+      class="btn btn-ingresar text-center"
+      (click)="loginUser()"
+    >
+      Ingresar
+    </button>
+  </div>
+</div>
